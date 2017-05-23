@@ -45,7 +45,7 @@ Used for Path-sampling and Stepping stone analyses to select best fitting coales
 	- `ZIKV.ZiBRA.UCLN-Expo.xml` (Exponential growth coalescent)
 	- `ZIKV.ZiBRA.UCLN-Skyline.xml` (Bayesian Skyline)
 
-### Phylogeography subsampling 
+### Phylogeography 
 Using complete dataset and 10 jackknife resampled datasets with 74 sequences each (10 per location) used to assess robustness of ancestral node locations inferred in the phylogeography analysis (Fig 3, 4, Extended Data Fig 4, Extended Data Table 3c). 
 
 - Asymmetric DTA (strict clock)
