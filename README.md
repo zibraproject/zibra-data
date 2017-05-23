@@ -34,11 +34,6 @@ The sequence datasets used in the analyses.
 ## Analyses 
 BEAST XML files and tree files for analyses reported in the paper.
 
-## Figures
-The figures from the paper.
-
-# License
-
 
 
 
