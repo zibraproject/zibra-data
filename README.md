@@ -4,7 +4,7 @@ This repository contains the sequence datasets, BEAST XML files and tree files u
 
 ## Abstract
 
-Transmission of Zika virus (ZIKV) in the Americas was first
+_Transmission of Zika virus (ZIKV) in the Americas was first
 confirmed in May 2015 in northeast Brazil. Brazil has had the highest
 number of reported ZIKV cases worldwide.
 Since the initial detection of ZIKV in Brazil, more than 45 countries in
@@ -26,7 +26,7 @@ of pre-detection cryptic transmission in recipient regions. The role
 of northeast Brazil in the establishment of ZIKV in the Americas
 is further supported by geographic analysis of ZIKV transmission
 potential and by estimates of the basic reproduction number of the
-virus.
+virus._
 
 ## Alignments
 The sequence datasets used in the analyses.

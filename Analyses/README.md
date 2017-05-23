@@ -40,7 +40,7 @@ Using complete dataset and 10 jackknife resampled datasets with 74 sequences eac
 
 - Asymmetric DTA
 	- `ZIKV.ZiBRA.Strict-Skyline.1500.completehistory_asymRegion.xml` (Compelte 254 sequence dataset)
-	- `ZIKV.ZiBRA.Strict-Skyline.1500.completehistory_asymRegion.subXXX.n10.xml` (10 resample datasets)
+	- `ZIKV.ZiBRA.Strict-Skyline.1500.completehistory_asymRegion.subXXX.n10.xml` (10 resampled datasets)
 	- `ZIKV.ZiBRA.Strict-Skyline.1500.trees` (Empirical tree distribution used for these analyses)
 	- `ZIKV.ZiBRA.Strict-Skyline.1500.completehistory_asymRegion.region.MCC` (MCC tree for the complete dataset)
 - BASTA
@@ -49,13 +49,13 @@ Using complete dataset and 10 jackknife resampled datasets with 74 sequences eac
 
 
 ### Note
-All analyses using the empirical tree distributions (all phylogeography and per-gene rates of evolution) will need to have the line referring to the empirical tree distribution changed before it will run in BEAST:
+All analyses using the empirical tree distributions (all phylogeography and per-gene rates of evolution) will need to have the line referring to the empirical tree distribution modified before it will run in BEAST:
 
 ```XML
-  <!-- Defining empirical tree distribution -->
-  <empiricalTreeDistributionModel id="treeModel" fileName="EmpiricalTreeDistribution.trees">
-		<taxa idref="taxa"/>
-  </empiricalTreeDistributionModel>
+<!-- Defining empirical tree distribution -->
+<empiricalTreeDistributionModel id="treeModel" fileName="EmpiricalTreeDistribution.trees">
+	<taxa idref="taxa"/>
+</empiricalTreeDistributionModel>
 ```
 
 
