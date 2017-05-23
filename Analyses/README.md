@@ -14,11 +14,11 @@ All analyses were performed in BEAST v1.8.3 except for BASTA analyses which were
 - Uncorrelated lognormal relaxed clock with Bayesian skyline treeprior: 
 	- `ZIKV.ZiBRA.UCLN-Skyline.xml`
 - Empirical tree distribution of 1,500 sampled molecular clock trees from the posterior after removing burn-in: 
-	- `ZIKV.ZiBRA.UCLN-Skyline.1500.trees`
+	- `ZIKV.ZiBRA.UCLN-Skyline.1500.trees.xml`
 - Evolutionary rates of different genes (Extended Data Table 3a):
-	- `ZIKV.ZiBRA.UCLN-Skyline.1500.per_gene_rates`
+	- `ZIKV.ZiBRA.UCLN-Skyline.1500.per_gene_rates.xml`
 - Phylogeography with asymmetric DTA (Fig 3, 4 Extended Data Table 3c):
-	- `ZIKV.ZiBRA.UCLN-Skyline.1500.completehistory_asymRegion`
+	- `ZIKV.ZiBRA.UCLN-Skyline.1500.completehistory_asymRegion.xml`
 	- `Figure3.tre` (MCC tree)
 	- `Figure3withSEAsia.tre` (MCC tree including sequences from Southeast Asia)
 
@@ -27,13 +27,13 @@ All analyses were performed in BEAST v1.8.3 except for BASTA analyses which were
 Used for Path-sampling and Stepping stone analyses to select best fitting coalescent and clock models (Extended Data Table 3a).
 
 - Strict clock
-	- `ZIKV.ZiBRA.Strict-Const` (Constant coalescent)
-	- `ZIKV.ZiBRA.Strict-Expo` (Exponential growth coalescent)
-	- `ZIKV.ZiBRA.Strict-Skyline` (Bayesian Skyline)
+	- `ZIKV.ZiBRA.Strict-Const.xml` (Constant coalescent)
+	- `ZIKV.ZiBRA.Strict-Expo.xml` (Exponential growth coalescent)
+	- `ZIKV.ZiBRA.Strict-Skyline.xml` (Bayesian Skyline)
 - Uncorrelated lognormal relaxed clock
-	- `ZIKV.ZiBRA.UCLN-Const` (Constant coalescent)
-	- `ZIKV.ZiBRA.UCLN-Expo` (Exponential growth coalescent)
-	- `ZIKV.ZiBRA.UCLN-Skyline` (Bayesian Skyline)
+	- `ZIKV.ZiBRA.UCLN-Const.xml` (Constant coalescent)
+	- `ZIKV.ZiBRA.UCLN-Expo.xml` (Exponential growth coalescent)
+	- `ZIKV.ZiBRA.UCLN-Skyline.xml` (Bayesian Skyline)
 
 ### Phylogeography subsampling 
 Using complete dataset and 10 jackknife resampled datasets with 74 sequences each (10 per location) used to assess robustness of ancestral node locations inferred in the phylogeography analysis (Extended Data Fig 4). 
