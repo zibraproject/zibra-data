@@ -1,6 +1,6 @@
 # ZiBRA 1 Data
 
-This repository contains the sequence datasets, BEAST XML files and tree files used for the publication "Establishment and cryptic transmission of Zika virus in Brazil and the Americas" (Faria et al. Nature 2017, doi: [10.1038/nature22401](http://dx.doi/10.1038/nature22401)).
+This repository contains the sequence datasets, BEAST XML files and tree files used for the publication "Establishment and cryptic transmission of Zika virus in Brazil and the Americas" (Faria et al. Nature 2017, doi: [10.1038/nature22401](http://dx.doi.org/10.1038/nature22401)).
 
 ## Abstract
 
